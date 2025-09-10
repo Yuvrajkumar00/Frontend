@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* RGBA color */
+.container {
+    background-color: rgba(11, 90, 159, 0.2);
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+img {
+    width: 100%;
+}
+
+/* HSL color */
+h1 , p {
+    color: hsl(0, 0%, 100%);
+}
+
+/* HSLA color */
+#link {
+    color: hsla(204, 97%, 47%, 0.8);
+    text-decoration: none;
+}
+
+/* HEXADECIMAL color */
+button {
+    background-color: #ff4500;
+    color: #fff;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 20px;
+}

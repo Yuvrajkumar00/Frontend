@@ -1,0 +1,72 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 8px;
+}
+
+.container {
+    background-color: rgba(11, 90, 159, 0.2);
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+h1 , p {
+    color: hsl(0, 0%, 100%);
+}
+
+/* FONT size , FONT family, FONT style */
+h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+/* FONT size in pixel*/
+#para1 {
+    font-size: 20px;
+}
+
+/* FONT size in em , FONT family, FONT weight*/
+#para1 {
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+#para2 {
+    font-size: 2em;
+}
+
+/* FONT size in rem*/
+#para3 {
+    font-size: 1.3rem;
+}
+
+#link {
+    color: hsla(204, 97%, 47%, 0.8);
+    text-decoration: none;
+}
+
+button {
+    background-color: #ff4500;
+    color: #fff;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 20px;
+}

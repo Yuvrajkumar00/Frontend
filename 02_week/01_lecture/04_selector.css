@@ -1,0 +1,29 @@
+body {
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+/* class selector */
+.container {
+    border: 1px solid gray;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* id selector */
+#link {
+    color: lightblue;
+}
+
+/* group selector */
+h1, p {
+    color: #fff;
+}
