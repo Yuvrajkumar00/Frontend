@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    /* width: 70px; */
+    /* height: 70px; */
+    border-radius: 50%;
+    border: 1px solid rgb(24, 235, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: callingwave;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+.inner-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(24, 235, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: innercallingwave;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+
+.img-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+@keyframes callingwave {
+    from{
+        width: 70px;
+        height: 70px;
+    }
+    to{
+        width: 120px;
+        height: 120px;
+    }
+}
+@keyframes innercallingwave {
+    from{
+        width: 70px;
+        height: 70px;
+    }
+    to{
+        width: 100px;
+        height: 100px;
+    }
+}
